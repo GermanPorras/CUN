@@ -18,7 +18,6 @@ public class Sale {
         System.out.println("Please enter the amount of items for this sale: ");
         items = scanner.nextInt();
         for (int i = 0; i < items; i++) {
-
             products.add(new Product(scanner.nextLine(), scanner.nextDouble(), scanner.nextInt()));
         }
 
