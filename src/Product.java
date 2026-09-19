@@ -12,8 +12,20 @@ public class Product {
         this.quantity = quantity;
     }
 
+    public String getName() {
+        return this.name;
+    }
+
+    public double getPrice() {
+        return this.price;
+    }
+
+    public int getQuantity() {
+        return this.quantity;
+    }
+
     // Metodo para calcular y devolver el valor total de la venta actual
-    public double calcVenta() {
+    public double prodValue() {
         return this.price * this.quantity;
     }
 }
